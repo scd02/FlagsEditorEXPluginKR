@@ -1,115 +1,115 @@
-# FlagsEditorEX(pert) Plugin
-This is a [PKHeX](https://github.com/kwsch/PKHeX) plugin for advanced users.
-It allows you to edit all sorts of Flags and Event Work data from save files.
+# 플래그에디터EX(pert) 플러그인
+고급 사용자를 위한 [PKHeX](https://github.com/kwsch/PKHeX) 플러그인입니다.
+세이브 파일에서 모든 종류의 플래그 및 이벤트 작업 데이터를 편집할 수 있습니다.
 
-## Setup Instructions
-- Ensure you have the latest PKHeX version from [here](https://projectpokemon.org/pkhex/)
-- Download the plugin from the latest release [here](https://github.com/fattard/FlagsEditorEXPlugin/releases/latest).
-- Extract and unblock them in Windows' Properties Menu.
-- Put them in the *plugins* folder that is in the same folder as the PKHeX program path.
-- If the *plugins* folder does not exist, create a new one, all lowercase letters.
-- Check for more instructions examples if you have trouble (specifically steps 4 and 5): [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
+## 설정 지침
+- [여기](https://projectpokemon.org/pkhex/) 에서 최신 PKHeX 버전을 사용해야 합니다
+- [여기](https://github.com/fattard/FlagsEditorEXPlugin/releases/latest) 에서 최신 릴리스에서 플러그인 다운로드 하십시오.
+- Windows의 속성 메뉴에서 해당 항목을 추출하고 차단을 해제합니다.
+- PKHeX 프로그램 경로와 동일한 폴더에 있는 *plugins* 폴더에 넣습니다.
+- *plugins* 폴더가 없는 경우, 모두 소문자로 새 폴더를 만듭니다.
+- 문제가 있는 경우 자세한 지침 예제를 확인(특히 4단계와 5단계): [PKHeX 플러그인 수동 설치](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
 
-## Actions
+## 행동
 
-**Note: The lists may contain unused data, which will be filtered out later, as documentation on the flags progresses.**  
+**참고: 목록에는 사용하지 않는 데이터가 포함될 수 있으며, 플래그에 대한 문서화가 진행됨에 따라 나중에 필터링됩니다.**  
 
-### Edit Flags
+### 플래그 편집
 
-This action opens the main window of the plugin.  
-All sorts of Flags and Event Work data can be edited through several tabs, that will open dedicated editors, and basic filters.  
+이 작업을 수행하면 플러그인의 기본 창이 열립니다.  
+모든 종류의 플래그 및 이벤트 작업 데이터는 여러 탭을 통해 편집할 수 있으며, 이 탭을 통해 전용 편집기와 기본 필터가 열립니다.  
 
 ![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/bdc96090-d506-49b6-9c21-3283a999a0bf)
 ![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/5d7ccace-e6de-4a54-9a08-f39d2458c1ee)
 ![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/5aff3825-be2f-4f3d-aee2-489a599eb354)
 ![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/640c5696-6939-4ba6-8d7a-23d40264bc68)
 
-After finishing editing, export your save data from the base application.
+편집을 완료한 후 기본 응용 프로그램에서 세이브 데이터를 내보냅니다.
 
-**No safety checks are done at all, so any combination of changes may cause issues like softlocks, crashes and permanent data loss.**
-**Save data backups are strongly recommended before going into flags editing.**
+**안전 점검은 전혀 수행되지 않으므로 변경 사항을 조합하면 소프트락, 충돌, 영구 데이터 손실과 같은 문제가 발생할 수 있습니다.**
+**플래그 편집을 시작하기 전에 데이터 세이브 백업을 강력히 권장합니다.**
 
-### Dump all Flags
+### 모든 플래그 추출
 
-This action will export the entire flag database with the current flag states (True/False) and event work values, with additional description (when available).  
-This action is mainly for researching flag states and diffing previous/current states to discover and document the flag usages, that will be added as human readable information.  
+이 작업은 현재 플래그 상태(참/거짓) 및 이벤트 작업 값과 함께 전체 플래그 데이터베이스를 내보냅니다(사용 가능한 경우).  
+이 작업은 주로 플래그 상태를 조사하고 이전/현재 상태를 구분하여 플래그 사용을 발견하고 문서화하여 사람이 읽을 수 있는 정보로 추가하기 위한 것입니다.  
 
-## Supported Games
-All mainline games are supported (limited descriptions for many of them)
+## 지원되는 게임
+모든 메인 게임이 지원됩니다(많은 게임에 대한 설명은 제한적입니다)
 
-- Red / Blue / Yellow (International and Japanese versions)
-- Gold / Silver / Crystal (International, Japanese and Korean versions)
-- Ruby / Sapphire / Emerald / FireRed / LeafGreen
-- Diamond / Pearl / Platinum / HeartGold / Soul Silver
-- Black / White / Black 2 / White 2
-- X / Y / Omega Ruby / Alpha Sapphire
-- Sun / Moon / Ultra Sun / Ultra Moon / Let's Go Pikachu / Let's Go Eevee
-- Sword / Shield / Brilliant Diamond / Shiny Pearl / Legends: Arceus
-- Scarlet / Violet
+- 레드 / 블루 / 옐로우 (국제 및 일본 버전)
+- 골드 / 실버 / 크리스탈 (국제, 일본 및 한국 버전)
+- 루비 / 사파이어 / 에메랄드 / 파이어레드 / 리프그린
+- 디아루가 / 펄기아 / 기라티나 / 하트골드 / 소울실버
+- 블랙 / 화이트 / 블랙 2 / 화이트 2
+- X / Y / 오메가루비 / 알파사파이어
+- 썬 / 문 / 울트라 썬 / 울트라 문 / 레츠고! 피카츄 / 레츠고! 이브이
+- 소드 / 실드 / 브릴리언트 다이아몬드 / 샤이닝 펄 / LEGENDS: 아르세우스
+- 스칼렛 / 바이올렛
 
-## Contributing
+## 기여하다(도움)
 
-### Localized content
+### 현지화된 콘텐츠
 
-The UI localization files follows the same format as the PKHeX localization resources, with a key=value pair by the '=' character.  
-The files are located at the [_localization_](/localization) folder.
+UI 현지화 파일은 '=' 문자로 키=값 쌍을 지정하여 PKHeX 현지화 리소스와 동일한 형식을 따릅니다.  
+파일은 [_localization_](/localization) 폴더에 있습니다.
 
-It detects the same language as the main PKHeX application is currently using.
+현재 기본 PKHeX 애플리케이션이 사용 중인 언어와 동일한 언어를 감지합니다.
 
-I've included an additional language file for pt-BR language, altough not supported, that I use to make room for labels in the UI, as this language is as bad in UI space constraints as Spanish or German.  
-It could also be used as a given example on how the localization for the UI works.
+이 언어는 스페인어나 독일어만큼 UI 공간 제약이 심하기 때문에 UI에 레이블을 넣을 공간을 확보하는 데 사용하는 pt-BR 언어용 언어 파일을 추가로 포함했습니다.  
+또한 UI의 현지화 작동 방식에 대한 주어진 예시로도 사용할 수 있습니다.
 
-The following table has the languages that are open to contribution
-| Key | Language            | Contributors   |
+다음 표에는 기여할 수 있는 언어가 있습니다
+| 키  | 언어                 | 기여자   |
 |-----|---------------------|----------------|
-| de  | German              |                |
-| en  | English             | Me             |
-| es  | Spanish             |                |
-| fr  | French              |                |
-| it  | Italian             |                |
-| ja  | Japanese            |                |
-| ko  | Korean              |                |
-| zh  | Simplified Chinese  |pplloufh and wubinwww|
-| zh2 | Traditional Chinese |                |
+| de  | 독일어              |                |
+| en  | 영어              | Me             |
+| es  | 스페인어           |                |
+| fr  | 프랑스어           |                |
+| it  | 이탈리아어           |                |
+| ja  | 일본어              |                |
+| ko  | 한국어              |                |
+| zh  | 중국어 간체       |pplloufh 그리고 wubinwww|
+| zh2 | 중국어 번체       |                |
 
-The flags resources database can also be localized, but it is not recommended at this moment due to constantly changes to those resources.
+플래그 리소스 데이터베이스도 현지화할 수 있지만, 해당 리소스가 지속적으로 변경되므로 현재로서는 권장되지 않습니다.
 
-Those files are simple _tsv_ text files located at  [_flagslist_](/flagslist) folder.
+해당 파일은 [_flagslist_](/flagslist) 폴더에 있는 간단한 _tsv_ 텍스트 파일입니다.
 
-The header of the files, with some examples:
-| Raw Idx | Event Type | Location     | Complement | Text Description                             | Valid Values                    | Identifier              |
+몇 가지 예를 들어 파일의 헤더:
+| 날것 Idx | 이벤트 유형 | 지역        | 보완        | 텍스트 설명                                   | 유효한 값                        | 식별자                  |
 |---------|------------|--------------|------------|----------------------------------------------|---------------------------------|-------------------------|
-| 0x0008  | ITEM GIFT  | Violet City  | Gym        | Received TM31 (Mud Slap) from Leader Falkner |                                 | EVENT_GOT_TM31_MUD_SLAP |
-| 0x0034  |            | Victory Road | 1F         | Rival state                                  | 0:Will battle you,1:Disappeared | wVictoryRoadSceneID     |
+| 0x0008  | 아이템 선물  | 도라지시티   | 체육관     | 관장 비상으로부터 TM31(진흙뿌리기) 획득         |                                 | EVENT_GOT_TM31_MUD_SLAP |
+| 0x0034  |             | 챔피언로드   | 1층        | 라이벌 상태                                  | 0:당신과 싸울 것 입니다,1:사라짐   | wVictoryRoadSceneID     |
 
-The following columns should **NOT** be modified, as they are part of internal logic
-- Raw Idx
-- Event Type
-- Identifier
+다음 열은 내부 논리의 일부이므로 **NOT**을 수정해야 합니다
+- 날것 Idx
+- 이벤트 유형
+- 식별자
 
-The localizable columns are:
-- Location (the major location for this event flag, like a town name, city, dungeon)
-- Complement (some useful complement like floor number, or name of a place like a house of someone)
-- Text description (the description of the purpose of the flag)
-- Valid Values (only used for Event Work flags, they are key:value pair by the character ':' and each entry is separated by ',')
+현지화 가능한 열은 다음과 같습니다:
+- 위치(마을 이름, 도시, 던전 등 이벤트 플래그의 주요 위치)
+- 보완 사항(층수 또는 누군가의 집과 같은 장소의 이름과 같은 유용한 보완 사항)
+- 텍스트 설명(플래그의 목적에 대한 설명)
+- 유효한 값(이벤트 작업 플래그에만 사용되며, 키:값 쌍은 문자 ':'로 표시되며 각 항목은 ','로 구분됩니다.)
 
-### New discovered flags
+### 새로 발견된 플래그
 
-The event flags are being researched little by little.  
-As the flags gets documented and descriptions are created, they will be embedded into the next version of the plugin.
+이벤트 플래그는 조금씩 연구되고 있습니다.  
+플래그가 문서화되고 설명이 생성되면 다음 버전의 플러그인에 포함됩니다.
 
-All research work can be checked here
+모든 연구 작업은 여기에서 확인할 수 있습니다
 
-[Event Flags - Research spreadsheet](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/copy)
+[이벤트 플래그 - 리서치 스프레드시트](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/copy)
 
-To contribute, create a copy of the above, fill the info you researched, and contact back with the information of what needs to be merged.
+기여하려면 위의 사본을 만들고 조사한 정보를 작성한 다음 병합해야 할 정보로 다시 연락하세요.
 
-Priority for community contribution would be the 3DS games.  
-Switch games had some progress right now.
+커뮤니티 기여의 우선순위는 3DS 게임입니다.  
+스위치 게임은 현재 어느 정도 진전이 있었습니다.
 
-## Credits
+## 크레딧
 
-[Kurt](https://github.com/kwsch) for [PKHeX](https://github.com/kwsch/PKHeX) and [pkNX](https://github.com/kwsch/pkNX)  
-[Matt](https://github.com/sora10pls) for a lot of research over event flags and datamining  
-[Pret](https://github.com/Pret) and all the disassemblies  
-All the people in [PPOrg](https://projectpokemon.org) that have contributed to event flags research
+[Kurt](https://github.com/kwsch) 위해서 [PKHeX](https://github.com/kwsch/PKHeX) 그리고 [pkNX](https://github.com/kwsch/pkNX)  
+이벤트 플래그 및 데이터 마이닝에 대한 많은 연구를 위한 [Matt](https://github.com/sora10pls)
+[Pret](https://github.com/Pret) 그리고 모든 분해물  
+이벤트 플래그 연구에 기여한 [PPOrg](https://projectpokemon.org) 의 모든 사람들
